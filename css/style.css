@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F6F6;
+    color: #2B2730;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*menu*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 80%;
+    margin-top: 32px;
+}
+
+.menu .menu-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu .menu-left .links a {
+    padding-right: 24px;
+}
+
+.menu .menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.menu .menu-right button {
+    background-color: #2B2730;
+    color: #F6F6F6;
+    padding: 16px 32px;
+    border-radius: 100px;
+}
+
+/*dobra-1*/
+.dobra-1 {
+    margin-top: 131px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%
+}
+
+.dobra-1 h1 {
+    font-size: 72px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 80px;
+    word-wrap: break-word;
+    
+}
+
+.dobra-1 span {
+    color: #FFB84C;
+}
+
+/*dobra-2*/
+.dobra-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 116px;
+}
+
+.dobra-2 .image {
+    z-index: 1;
+}
+
+.dobra-2 .background-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2B2730;
+    width: 100vw;
+    margin-top: -340px;
+}
+
+.dobra-2 .background-dark .content-background-dark{
+    margin-top: 420px;
+}
+
+/*só para visualizarmos*/
+.dobra-2 .background-dark .content-background-dark p {
+    color:#F6F6F6;
+}
+
+.dobra-2 .background-dark .content-background-dark span {
+    color:#FFB84C
+}
+
+.dobra-2 .background-dark .content-background-dark .call {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.dobra-2 .background-dark .content-background-dark .users-perfil {
+    margin-top: 116px;
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 116px;
+    margin-bottom: 108px;
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations .numbers-box {
+    display: flex;
+    padding-right: 8px;
+    gap: 32px;
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations .numbers-box .box  span {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations .numbers-box .box p {
+    color: white;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations .Explore {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations .Explore p {
+    color: white;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 40px;
+    word-wrap: break-word
+}
+
+.dobra-2 .background-dark .content-background-dark .section-informations .Explore img {
+    width: 64px;
+    height: 64px;
+}
+
+/*dobra-3*/
