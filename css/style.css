@@ -13,7 +13,7 @@ main {
     flex-direction: column;
 }
 
-/*menu*/
+/**** menu ****/
 .menu {
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ main {
     color: #FFB84C;
 }
 
-/*dobra-2*/
+/**** dobra-2  ****/
 .dobra-2 {
     display: flex;
     justify-content: center;
@@ -165,4 +165,97 @@ main {
     height: 64px;
 }
 
-/*dobra-3*/
+/**** dobra-3 ***/
+.dobra-3 {
+    display: flex;
+    margin-top: 116px;
+    gap: 30px;
+}
+
+.dobra-3 .description  h2{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    word-wrap: break-word
+}
+
+.dobra-3 .description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin: 24px 0px 24px 0px;
+}
+
+.dobra-3 .description button {
+    background-color: #2B2730;
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 16px 32px;
+    border-radius: 32px
+}
+/*l286 c280*/
+.dobra-3 .pictures-sections {
+    display: grid;
+    grid-template: repeat(2, 286px) / repeat(2, 280px);
+    row-gap: 34px;
+    column-gap: 32px;
+}
+
+.dobra-3 .pictures-sections .topic h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word;
+    margin: 16px 0px 16px 0px;
+}
+
+.dobra-3 .pictures-sections .topic p {
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+/**** dobra-4 ****/
+.dobra-4 {
+    width: 80%
+}
+
+.dobra-4 .dark-board {
+    background-color:#2B2730;
+    border-radius: 32px;
+    text-align: center;
+    padding: 116px;
+}
+
+.dobra-4 .dark-board .content-dark-board h1 {
+    color:#F6F6F6;
+    font-size: 56px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 64px;
+    word-wrap: break-word
+}
+
+.dobra-4 .dark-board p {
+    color:#F6F6F6;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin: 24px 0px 24px 0px
+}
+
+.dobra-4 .dark-board button {
+    border-radius: 32px;
+    background-color: #FFB84C;
+    padding: 16px 32px;
+    color: #2B2730;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word
+}
