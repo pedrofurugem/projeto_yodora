@@ -169,14 +169,20 @@ main {
 .dobra-3 {
     display: flex;
     margin-top: 116px;
-    gap: 30px;
+   
+}
+
+.dobra-3 .description {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline
 }
 
 .dobra-3 .description  h2{
     font-size: 56px;
     font-weight: 700;
     line-height: 64px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .dobra-3 .description p {
@@ -197,7 +203,7 @@ main {
     padding: 16px 32px;
     border-radius: 32px
 }
-/*l286 c280*/
+
 .dobra-3 .pictures-sections {
     display: grid;
     grid-template: repeat(2, 286px) / repeat(2, 280px);
@@ -221,7 +227,8 @@ main {
 
 /**** dobra-4 ****/
 .dobra-4 {
-    width: 80%
+    width: 80%;
+    margin: 116px 0px 116px 0px;
 }
 
 .dobra-4 .dark-board {
@@ -237,7 +244,7 @@ main {
     font-family: Poppins;
     font-weight: 700;
     line-height: 64px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .dobra-4 .dark-board p {
@@ -258,4 +265,40 @@ main {
     font-weight: 500;
     line-height: 20px;
     word-wrap: break-word
+}
+
+/** dobra-5 **/
+.dobra-5 {
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+    margin-bottom: 116px
+}
+
+.dobra-5 .logos {
+    padding-right: 200px;
+    
+}
+
+.dobra-5 .logos img {
+    margin-bottom: 40px;
+}
+
+.dobra-5 .lists {
+    display: flex;
+    align-items:first baseline;
+    justify-content: center;
+    gap: 32px
+}
+
+.dobra-5 .lists .list-topic {
+    padding-right: 70px;
+}
+
+.dobra-5 .lists .list-topic h5 {
+    margin-bottom: 16px
+}
+
+.dobra-5 .lists .list-topic li a {
+    margin-bottom: 8px;
 }
