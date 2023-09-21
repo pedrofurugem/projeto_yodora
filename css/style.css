@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #F6F6F6;
     color: #2B2730;
+    overflow-x: hidden
 }
 
 main {
@@ -154,10 +155,10 @@ main {
 .dobra-2 .background-dark .content-background-dark .section-informations .Explore p {
     color: white;
     font-size: 32px;
-    font-family: Poppins;
     font-weight: 500;
     line-height: 40px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    width: 210px
 }
 
 .dobra-2 .background-dark .content-background-dark .section-informations .Explore img {
@@ -169,13 +170,14 @@ main {
 .dobra-3 {
     display: flex;
     margin-top: 116px;
-   
+    gap: 30px
 }
 
 .dobra-3 .description {
     display: flex;
     flex-direction: column;
-    align-items: first baseline
+    align-items: first baseline;
+    line-break:loose
 }
 
 .dobra-3 .description  h2{
@@ -183,6 +185,7 @@ main {
     font-weight: 700;
     line-height: 64px;
     word-wrap: break-word;
+    width: 70%
 }
 
 .dobra-3 .description p {
@@ -191,6 +194,7 @@ main {
     line-height: 24px;
     word-wrap: break-word;
     margin: 24px 0px 24px 0px;
+    width: 75%
 }
 
 .dobra-3 .description button {
