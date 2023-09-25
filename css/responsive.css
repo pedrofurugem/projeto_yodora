@@ -1,0 +1,23 @@
+@media(max-width: 912px) {
+    .menu .menu-left .links {
+        display: none
+    }
+
+    .menu .menu-right {
+        display: none
+    }
+
+    .menu .menu-right img {
+        display: inline
+    }
+
+    /*dobra-1*/
+    .dobra-1 h1 {
+        font-size: 32px
+    }
+
+    /*dobra-2*/
+    .dobra-2 .image {
+        width: 324px
+    }
+}
