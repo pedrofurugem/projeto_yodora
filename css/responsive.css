@@ -7,8 +7,8 @@
         display: none
     }
 
-    .menu .menu-right img {
-        display: inline
+    .menu img  {
+        display: block
     }
 
     /*dobra-1*/
@@ -19,5 +19,23 @@
     /*dobra-2*/
     .dobra-2 .image {
         width: 324px
+    }
+
+    .dobra-2 .background-dark .content-background-dark p {
+        font-size: 32px;
+    }
+
+    .dobra-2 .background-dark .content-background-dark .users-perfil {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dobra-2 .background-dark .content-background-dark .section-informations {
+        flex-direction: column;
+    }
+
+    .dobra-2 .background-dark .content-background-dark .section-informations .numbers-box {
+        flex-direction: column;
     }
 }
