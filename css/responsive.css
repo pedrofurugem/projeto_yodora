@@ -38,4 +38,14 @@
     .dobra-2 .background-dark .content-background-dark .section-informations .numbers-box {
         flex-direction: column;
     }
+
+    /*dobra 3*/
+    .dobra-3 { 
+        flex-direction: column;
+    }
+
+    .dobra-3 .pictures-sections {
+        display: flex;
+        flex-direction: column;
+    }
 }
