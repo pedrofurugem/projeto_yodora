@@ -48,4 +48,13 @@
         display: flex;
         flex-direction: column;
     }
+
+    /*dobra 5*/
+    .dobra-5 {
+        flex-direction: column-reverse;
+    }
+
+    .dobra-5 .lists {
+        flex-direction: column;
+    }
 }
