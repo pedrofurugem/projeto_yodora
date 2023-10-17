@@ -12,8 +12,20 @@
     }
 
     /*dobra-1*/
+    .dobra-1 { 
+        margin-top: 56px;
+        gap: 0px;
+    }
+
     .dobra-1 h1 {
-        font-size: 32px
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .dobra-1 img {
+        width: 102px
     }
 
     /*dobra-2*/
@@ -21,14 +33,24 @@
         width: 324px
     }
 
-    .dobra-2 .background-dark .content-background-dark p {
+    .dobra-2 .background-dark .content-background-dark p {   
         font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px; /* 125% */
+        letter-spacing: -0.8px;
     }
 
     .dobra-2 .background-dark .content-background-dark .users-perfil {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
 
+    .dobra-2 .background-dark .content-background-dark .users-perfil img {
+        width: 328px;
+        height: 436.776px;
+        padding: 32px 14px;
     }
 
     .dobra-2 .background-dark .content-background-dark .section-informations {
@@ -39,6 +61,13 @@
         flex-direction: column;
     }
 
+    .dobra-2 .background-dark .content-background-dark .section-informations .numbers-box .box  span {
+        font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    }
+
     /*dobra 3*/
     .dobra-3 { 
         flex-direction: column;
@@ -47,6 +76,15 @@
     .dobra-3 .pictures-sections {
         display: flex;
         flex-direction: column;
+    }
+
+    /*dobra-4*/
+    .dobra-4 .content-dark-board h1{
+        font-size: 32px;
+    }
+
+    .dobra-4 .content-dark-board p {
+        font-size: 16px
     }
 
     /*dobra 5*/
