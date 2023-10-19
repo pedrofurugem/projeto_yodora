@@ -236,15 +236,15 @@ main {
 
 /**** dobra-4 ****/
 .dobra-4 {
-    width: 80%;
     margin: 116px 0px 116px 0px;
 }
 
 .dobra-4 .dark-board {
+    width: 1240px;
     background-color:#2B2730;
     border-radius: 32px;
     text-align: center;
-    padding: 116px;
+    padding: 116px 0px;
 }
 
 .dobra-4 .dark-board .content-dark-board h1 {

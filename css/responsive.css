@@ -97,14 +97,59 @@
         flex-direction: column;
     }
 
+    .dobra-3 .description {
+
+    }
+
+    .dobra-3 .description h2 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: -0.8px;
+    }
+
+    .dobra-3 .description p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        letter-spacing: -0.4px;
+    }
+
     .dobra-3 .pictures-sections {
         display: flex;
         flex-direction: column;
+        margin: 18px
+    }
+
+    .dobra-3 .pictures-sections .topic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dobra-3 .pictures-sections .topic img {
+        width: 96px;
+    }
+
+    .dobra-3 .pictures-sections .topic h4 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px; 
+    }
+
+    .dobra-3 .pictures-sections .topic p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; 
     }
 
     /*dobra-4*/
     .dobra-4 {
-        width: 100%;
         margin: 64px 0px 64px 0px;
     }
     .dobra-4 .dark-board {
@@ -130,7 +175,12 @@
         flex-direction: column-reverse;
     }
 
+    .dobra-5 .logos {
+        gap: 16px
+    }
+
     .dobra-5 .lists {
         flex-direction: column;
     }
+
 }
