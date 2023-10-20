@@ -236,6 +236,9 @@ main {
 
 /**** dobra-4 ****/
 .dobra-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 116px 0px 116px 0px;
 }
 
@@ -286,11 +289,12 @@ main {
 
 .dobra-5 .logos {
     padding-right: 200px;
-    
-}
-
-.dobra-5 .logos img {
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
 }
 
 .dobra-5 .lists {

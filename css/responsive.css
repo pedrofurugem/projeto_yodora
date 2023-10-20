@@ -98,7 +98,7 @@
     }
 
     .dobra-3 .description {
-
+        margin: 18px
     }
 
     .dobra-3 .description h2 {
@@ -152,9 +152,10 @@
     .dobra-4 {
         margin: 64px 0px 64px 0px;
     }
+    
     .dobra-4 .dark-board {
         display: flex;
-        width: 328px;
+        width: 318px;
         padding: 24px 16px;
         flex-direction: column;
         justify-content: center;
@@ -173,10 +174,13 @@
     /*dobra 5*/
     .dobra-5 {
         flex-direction: column-reverse;
+        gap: 32px
     }
 
     .dobra-5 .logos {
-        gap: 16px
+        gap: 16px;
+        margin: auto 0;
+        padding-right: 0px;
     }
 
     .dobra-5 .lists {
